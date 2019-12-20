@@ -1,0 +1,18 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Start mkdocs": "mkdocs serve -a 0.0.0.0:8000",
+        "Deploy Docs": "mkdocs gh-deploy",
+        "Start Ungit":"ungit --port=4000 --ungitBindIp 0.0.0.0"
+  },
+
+// Preview button configuration
+  "preview": {
+       
+        "Preview": "https://{{domain8000}}/",
+        "Visit Ungit": "https://{{domain4000}}/#/repository?path=%2Fhome%2Fcodio%2Fworkspace"
+        
+  }
+}
